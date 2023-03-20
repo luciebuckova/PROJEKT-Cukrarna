@@ -103,12 +103,12 @@ h3 {
 /* hero sekce s obrázkem a hlavním nadpisem */
 
 .cupcake {
-	background: url(images/cupcake.jpg) top left/cover no-repeat;
+	background: url(images/cupcake.jpg) center right/cover no-repeat;
 }
 
 .hero {
 	color: white;
-	padding: 80px 40% 80px 0;	
+	padding: 80px 440px 80px 0;	
 }
 
 .hero h1 {
@@ -188,6 +188,7 @@ h3 {
 	background-color: white;
 	border-radius: 5px;
 	margin: 15px;
+	box-shadow: 2px 2px 4px #c2c2c2;
 }
 
 .produkt h3{
