@@ -28,6 +28,7 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
+/* obecné vlastnosti shodné pro celou stránku */
 
 body {
 	margin: 0;
@@ -38,10 +39,14 @@ body {
 	background-color: white;
 }
 
+/* vycentrovaný obsah uvnitř sekcí s max-width 1100px */
+
 .uvnitr {
 	max-width: 1100px;
 	margin: 0 auto;
 }
+
+/* stylování nadpisů */
 
 h1,
 h2,
@@ -49,6 +54,7 @@ h3 {
 	font-family: 'Playfair Display', serif;
 	line-height: 1.25;
 	color: #3e606b;
+	font-weight: bold;
 }
 
 h1 {
@@ -62,6 +68,8 @@ h2 {
 h3 {
 	font-size: 18px;
 }
+
+/* hlavička s menu */
 
 .banner {
 	display: flex;
@@ -77,6 +85,7 @@ h3 {
 .menu {
 	display: flex;
 	list-style-type: none;
+	padding: 0;
 }
 
 .menu a {
@@ -90,6 +99,8 @@ h3 {
 	background-color: #f195b2;
 	color: white;
 }
+
+/* hero sekce s obrázkem a hlavním nadpisem */
 
 .cupcake {
 	background: url(images/cupcake.jpg) top left/cover no-repeat;
@@ -108,7 +119,10 @@ h3 {
 .hero p {
 	font-size: 24px;
 	font-style: italic;
+	margin-bottom: 0;
 }
+
+/* sekce vítejte v naší cukrárně */
 
 .vitejte {
 	display: flex;
@@ -121,20 +135,21 @@ h3 {
 }
 
 .levy h2 {
-	margin-top: 0;
+	margin: 0 0 18px 0;
 }
 
 .levy p {
 	padding-right: 30px;
-	margin-bottom: 30px;
 }
 
 .vyrobky {
+	display: inline-block;
 	color: white;
 	text-decoration: none;
 	padding: 15px 40px;
 	border-radius: 30px;
 	background-color:#f195b2;
+	margin-top: 12px;
 }
 
 .vyrobky:hover {
@@ -148,6 +163,8 @@ h3 {
 .pravy img {
 	border-radius:5px;
 }
+
+/* sekce dnešní nabídka */
 
 .tmavy {
 	background-color: #f0f0f0;
@@ -164,6 +181,7 @@ h3 {
 
 .kontejner {
 	display: flex;
+	padding-bottom: 80px;
 }
 
 .produkt {
@@ -187,6 +205,8 @@ h3 {
 	border-radius: 5px 5px 0 0;
 }
 
+/* sekce náš přístup k pečení */
+
 .pristup {
 	display: flex;
 	padding: 80px 0;
@@ -196,6 +216,7 @@ h3 {
 .vpravo h2 {
 	margin-top: 0;
 	padding-left: 30px;
+	margin-bottom: 18px;
 }
 
 .vpravo p {
@@ -209,6 +230,8 @@ h3 {
 .vlevo img {
 	border-radius:5px;
 }
+
+/* patička */
 
 .paticka {
 	background-color: #303339;
