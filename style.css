@@ -31,5 +31,188 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	color: #242424;
+	line-height: 1.5;
+	background-color: white;
 }
 
+.uvnitr {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+	color: #3e606b;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+.banner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 170px;
+	padding: 30px 0;
+}
+
+.menu {
+	display: flex;
+	list-style-type: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #242424;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+
+.menu a:hover {
+	background-color: #f195b2;
+	color: white;
+}
+
+.cupcake {
+	background: url(images/cupcake.jpg) top left/cover no-repeat;
+}
+
+.hero {
+	color: white;
+	padding: 80px 40% 80px 0;	
+}
+
+.hero h1 {
+	margin-top: 0;
+	color: white;
+}
+
+.hero p {
+	font-size: 24px;
+	font-style: italic;
+}
+
+.vitejte {
+	display: flex;
+	padding: 80px 0;
+	align-items: center;
+}
+
+.levy {
+	padding-left: 15px;
+}
+
+.levy h2 {
+	margin-top: 0;
+}
+
+.levy p {
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+
+.vyrobky {
+	color: white;
+	text-decoration: none;
+	padding: 15px 40px;
+	border-radius: 30px;
+	background-color:#f195b2;
+}
+
+.vyrobky:hover {
+	background-color: #d2567d;
+}
+
+.pravy {
+	padding-right: 15px;
+}
+
+.pravy img {
+	border-radius:5px;
+}
+
+.tmavy {
+	background-color: #f0f0f0;
+}
+
+.nabidka h2 {
+	padding: 80px 15px 0 15px;
+	margin: 0;
+}
+
+.nabidka p {
+	padding: 0 15px;
+}
+
+.kontejner {
+	display: flex;
+}
+
+.produkt {
+	background-color: white;
+	border-radius: 5px;
+	margin: 15px;
+}
+
+.produkt h3{
+	padding-top: 20px;
+	margin: 0;
+	text-align: center;
+}
+.produkt p {
+	padding: 20px;
+	margin: 0;
+}
+
+.produkt img{
+	width: 245px;
+	border-radius: 5px 5px 0 0;
+}
+
+.pristup {
+	display: flex;
+	padding: 80px 0;
+	align-items: center;
+}
+
+.vpravo h2 {
+	margin-top: 0;
+	padding-left: 30px;
+}
+
+.vpravo p {
+	padding-left: 30px;
+}
+
+.vlevo {
+	padding-left: 15px;
+}
+
+.vlevo img {
+	border-radius:5px;
+}
+
+.paticka {
+	background-color: #303339;
+	padding: 30px 0;
+	color: white;
+	text-align: center;
+}
